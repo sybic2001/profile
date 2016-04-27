@@ -1,3 +1,17 @@
+#sidebar{
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #555555;
+  text-align: center;
+}
+
+#page-content{
+  margin-left: 100px;
+}
+
 .container {
   width: 700px;
   margin: 0 auto;
@@ -97,7 +111,9 @@ ul {
 
 .list-inline li {
   display: inline-block;
-  padding: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 0px;
 }
 
 .btn-red {
@@ -124,4 +140,10 @@ ul {
   padding-left: 30px;
   padding-right: 0px;
   text-align: top;
+}
+
+.fa-tripadvisor {
+  color: white;
+  font-size: 40px;
+  padding-top: 50px;
 }
